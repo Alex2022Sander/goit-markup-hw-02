@@ -1,0 +1,57 @@
+/* цвет фона наша команда #2F303A; */
+/*цвет текста в боди #757575; */
+/*хедер лого Web голубой #2196F3; */
+/* хедер лого Web черный #000000; */
+/* цвет в нав,портфолио,и внимание к деталям #212121; */
+/* цвет контактов в навигации #757575; */
+/* белый цвет #FFFFFF; */
+/*фон героя #2F303A; */
+/*кнопка в  #F5F4FA; */
+
+:root {
+  --background-dark-grey: #2f303a;
+  --grey-color: #757575;
+  --blue-logo-color: #2196f3;
+  --dark-logo-color: #000000;
+  --white-color: #ffffff;
+  --current-color-dark: #212121;
+}
+body {
+  color: var(--grey-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 14mp;
+  letter-spacing: 0.03;
+  line-height: 1.71;
+  }
+p {
+  font-family: 400;
+  letter-spacing: 0.03;
+}
+.header {
+  font-family: 'Raleway' sans-serif;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+
+/* logo */
+.logo {
+  color: var(--blue-logo-color);
+  font-family: 'Raleway' sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 2;
+  text-decoration: none;
+}
+.dark-logo {
+  color: var(--dark-logo-color);
+}
+.nav-menu,.white {
+    color: var(--white-color);
+}
+
+.white {
+    color: var(--white-color);
+}
+
