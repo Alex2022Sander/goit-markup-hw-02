@@ -48,7 +48,8 @@ p {
 .dark-logo {
   color: var(--dark-logo-color);
 }
-.nav-menu,.white {
+.nav-menu,
+.white {
     color: var(--white-color);
 }
 
@@ -107,7 +108,7 @@ p {
     align-items: center;
     letter-spacing: 0.06em;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 /* Button */
@@ -121,5 +122,39 @@ p {
     font-size: 16px;
     line-height: 1.6;
     border-radius: 4px;
-    
+
 }
+/* Контент и заголовки */
+.tytle-other {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    text-transform: uppercase;
+}
+.content {
+    font-size: 14px;
+    line-height: 1, 14;
+}
+.tytle-we-do {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+.select-others {
+    background-color: var(--light-gray-backg);
+}
+.tytle-team {
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1, 2;
+    text-align: center;
+}
+.specialist-team {
+    font-size: 16px;
+  line-height: 1, 2;
+  text-align: center;
+}
+/* портфолио */
+
+
