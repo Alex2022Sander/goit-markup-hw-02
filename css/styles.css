@@ -22,13 +22,13 @@ body {
   color: var(--grey-color);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-size: 14mp;
-  letter-spacing: 0.03;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   line-height: 1.71;
   }
 p {
   font-weight: 400;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 .header {
   font-weight: 500;
@@ -93,7 +93,7 @@ p {
     text-transform: uppercase;
     line-height: 1, 4;
     text-align: center;
-    letter-spacing: 0.06;
+    letter-spacing: 0.06em;
 }
 
 .hero-button {
@@ -107,7 +107,7 @@ p {
     align-items: center;
     letter-spacing: 0.06em;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
 /* Button */
@@ -151,7 +151,7 @@ p {
 }
 .tytle-team {
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1, 2;
     text-align: center;
 }
@@ -163,7 +163,7 @@ p {
 
 /* контент портфолио */
 .content-portfolio {
-font-size: 16;
+font-size: 16px;
 line-height: 1, 88;
 }
 .tytle-portfolio {
