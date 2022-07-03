@@ -27,7 +27,7 @@ body {
   line-height: 1.71;
   }
 p {
-  font-family: 400;
+  font-weight: 400;
   letter-spacing: 0.03;
 }
 .header {
@@ -64,8 +64,7 @@ p {
 .active-page {
     color: var(--blue-logo-color);
 }
-.list
-{
+.list {
     list-style: none;
 }
 .nav-menu,
@@ -124,6 +123,12 @@ p {
     border-radius: 4px;
 
 }
+.select-button:hover,
+.select-button:focus {
+  background-color: var(--blue-logo-color);
+  color: var(--white-color);
+}
+
 /* Контент и заголовки */
 .tytle-other {
     font-weight: 700;
@@ -133,7 +138,7 @@ p {
 }
 .content {
     font-size: 14px;
-    line-height: 1, 14;
+    line-height: 1, 71;
 }
 .tytle-we-do {
     font-weight: 700;
@@ -155,6 +160,7 @@ p {
   line-height: 1, 2;
   text-align: center;
 }
+
 /* контент портфолио */
 .content-portfolio {
 font-size: 16;
