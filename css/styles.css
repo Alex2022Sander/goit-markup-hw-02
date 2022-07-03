@@ -155,6 +155,32 @@ p {
   line-height: 1, 2;
   text-align: center;
 }
-/* портфолио */
-
-
+/* контент портфолио */
+.content-portfolio {
+font-size: 16;
+line-height: 1, 88;
+}
+.tytle-portfolio {
+color: var(--current-color-dark);
+font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/* футер */
+.footer {
+    background-color: var(--background-dark-grey);
+}
+.address {
+    font-style: inherit;
+}
+.address-link {
+    color: var(--footer-primary-color);
+}
+.street {
+    color: var(--white-color);
+}
+.address .link:hover
+.address .link:focus{
+    color: var(--blue-logo-color);
+}
