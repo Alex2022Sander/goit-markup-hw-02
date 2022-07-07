@@ -32,7 +32,7 @@ p {
 }
 .header {
   font-weight: 500;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -42,7 +42,7 @@ p {
   font-family: 'Raleway',cursive;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-decoration: none;
 }
 .dark-logo {
@@ -59,7 +59,7 @@ p {
 
 .link {
     text-decoration: none;
-    color: var(--current-color-dark);
+    color: var(--current-colol);
 }
 .active-page {
     color: var(--blue-logo-color);
@@ -67,8 +67,7 @@ p {
 .list {
     list-style: none;
 }
-.nav-menu,
-.nav-contact {
+.nav-menu {
     color: var(--current-color-dark);
 }
 .nav-menu .link:hover,
@@ -76,8 +75,8 @@ p {
     color: var(--blue-logo-color);
 }
 .header-contact {
-    color: var(--grey-color);
 }
+
 .header-contact .link:hover,
 .header-contact .link:focus {
     color: var(--blue-logo-color);
@@ -91,7 +90,7 @@ p {
     font-weight: 900;
     font-size: 44px;
     text-transform: uppercase;
-    line-height: 1, 4;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
 }
@@ -102,7 +101,7 @@ p {
     background-color: var(--blue-logo-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1, 9;
+    line-height: 1.9;
     text-align: center;
     align-items: center;
     letter-spacing: 0.06em;
@@ -133,12 +132,12 @@ p {
 .tytle-other {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1, 14;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 .content {
     font-size: 14px;
-    line-height: 1, 71;
+    line-height: 1.71;
 }
 .tytle-we-do {
     font-weight: 700;
@@ -152,19 +151,19 @@ p {
 .tytle-team {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1, 2;
+    line-height: 1.2;
     text-align: center;
 }
 .specialist-team {
     font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
 }
 
 /* контент портфолио */
 .content-portfolio {
 font-size: 16px;
-line-height: 1, 88;
+line-height: 1.88;
 }
 .tytle-portfolio {
 color: var(--current-color-dark);
