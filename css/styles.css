@@ -48,18 +48,16 @@ p {
 .dark-logo {
   color: var(--dark-logo-color);
 }
-.nav-menu,
-.white {
-    color: var(--white-color);
-}
 
 .white {
     color: var(--white-color);
 }
+
+
 
 .link {
     text-decoration: none;
-    color: var(--current-color);
+    color: currentColor 
 }
 .active-page {
     color: var(--blue-logo-color);
@@ -67,7 +65,8 @@ p {
 .list {
     list-style: none;
 }
-.nav-list {
+
+.nav-menu.list {
     color: var(--current-color);
 }
 .nav-menu .link:hover,
