@@ -18,6 +18,7 @@
   --footer-primary-color: rgba(255, 255, 255, 0.6);
   --light-gray-backg: #f5f4fa;
   --card-set-gap:30px;
+  --grey-edging: rgba(238, 238, 238, 1);
 }
 body {
   color: var(--grey-color);
@@ -32,10 +33,28 @@ p {
   letter-spacing: 0.03em;
   padding: 0;
 }
+ul {
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+
 .header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  outline: 1px solid var(--grey-edging);
+
 }
 .list {
     list-style: none;
@@ -81,9 +100,24 @@ p {
     text-decoration: none;
     color: currentColor 
 }
+
+.we-do-item,
+.benefits-item,
+.team-item {
+  text-decoration: none;
+  color: var(--color-dark);
+}
+
+.we-do-list .we-do-item {
+    padding: 0;
+    margin-right: var(--card-set-gap);
+}
+
 .active-page {
     color: var(--blue-logo-color);
 }
+
+
 .list {
     list-style: none;
 }
