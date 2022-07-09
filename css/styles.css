@@ -17,6 +17,7 @@
   --current-color: #212121;
   --footer-primary-color: rgba(255, 255, 255, 0.6);
   --light-gray-backg: #f5f4fa;
+  --card-set-gap:30px;
 }
 body {
   color: var(--grey-color);
@@ -29,12 +30,33 @@ body {
 p {
   font-weight: 400;
   letter-spacing: 0.03em;
+  padding: 0;
 }
 .header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+.main-nav .logo{
+    margin-right: var(--card-set-gap);
+  }
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
 /* logo */
 .logo {

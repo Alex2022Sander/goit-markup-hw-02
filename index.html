@@ -5,25 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="css/styles.css"/>
     <title>Веб-студия</title>
 </head>
 <body>
     <!--шапка сайта-->
-    <header class="header">
-        <nav class="nav">
+    <header class="header container">
+        <nav class="main-nav">
             <a href="index.html" class="logo">Web<span class="dark-logo">Studio</span></a>
     
             <ul class="nav-menu list">
-              <li>
+              <li class="nav-item">
                 <a href="index.html" class="active-page link">Студия</a>
               </li>
-              <li>
+              <li class="nav-item">
                 <a href="portfolio.html" class="link">Портфолио</a>
               </li>
-              <li>
+              <li class="nav-item">
                 <a href="" class="link">Контакты</a>
               </li>
             </ul>
@@ -41,12 +48,12 @@
     
     <main>
         <!--герой-->
- <section class="hero">
+ <section class="hero container section">
     <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
     <button type="button" class="hero-button">Заказать услугу</button>
     </section>
  <!--особенности-->
- <section class="benefits">
+ <section class="benefits container section">
 
 <h2>Наши особенности</h2>
 
@@ -71,7 +78,7 @@
 </section>
 
 <!-- Чем занимаемся-->
-<section class="we-do">
+<section class="we-do container section">
 <h2 class="section-tytle">Чем мы занимаемся</h2>
 
 <ul class="list">
@@ -96,7 +103,7 @@
 </ul>
 </section>
 
-<section class="team">
+<section class="team container section">
 <h2 class="section-tytle">Наша команда</h2>
 <ul class="list">
     <li>
@@ -134,7 +141,7 @@
 </section>
 </main>
     <!--подвал-->
-     <footer class="footer">
+     <footer class="footer container section">
         <a href="index.html" class="logo">Web<span class="white">Studio</span></a>
         <address class="address">
             <ul class="list">
