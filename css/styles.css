@@ -17,8 +17,6 @@
   --current-color: #212121;
   --footer-primary-color: rgba(255, 255, 255, 0.6);
   --light-gray-backg: #f5f4fa;
-  --card-set-gap:30px;
-  --grey-edging: rgba(238, 238, 238, 1);
 }
 body {
   color: var(--grey-color);
@@ -31,51 +29,12 @@ body {
 p {
   font-weight: 400;
   letter-spacing: 0.03em;
-  padding: 0;
 }
-ul {
-    padding: 0;
-}
-
-h1,
-h2,
-h3 {
-  padding: 0;
-}
-img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
-
 .header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  outline: 1px solid var(--grey-edging);
-
 }
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.main-nav {
-    display: flex;
-    align-items: center;
-}
-.main-nav .logo{
-    margin-right: var(--card-set-gap);
-  }
-  
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 
 /* logo */
 .logo {
@@ -100,60 +59,23 @@ img{
     text-decoration: none;
     color: currentColor 
 }
-
-.we-do-item,
-.benefits-item,
-.team-item {
-  text-decoration: none;
-  color: var(--color-dark);
-}
-
-.we-do-list .we-do-item {
-    padding: 0;
-    margin-right: var(--card-set-gap);
-}
-
 .active-page {
     color: var(--blue-logo-color);
 }
-
-.container .contact-list {
-    margin-left: 331px;
+.list {
+    list-style: none;
 }
-.contact-list {
-    display: flex;
-  }
-  .contact-list .nav-item + .nav-item {
-    margin-left: 50px;
-  }
-  .nav-menu {
-    display: flex;
+
+.nav-menu.list {
     color: var(--current-color);
-  }
-
-  .nav-menu.link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-
-  .nav-menu .link:hover,
-  .nav-menu .link:focus {
-      color: var(--blue-logo-color);
-  }
-
-  .nav-menu .nav-item {
-    margin-right: 50px;
-  }
-  .nav-menu .nav-item:last-child {
-    margin-right: 0;
-  }
-  .team-list .team-item:last-child {
-    margin-right: 0;
-  }
-  .benefits-list .benefits-item:last-child {
-    margin-right: 0;
-  }
+}
+.nav-menu .link:hover,
+.nav-menu .link:focus {
+    color: var(--blue-logo-color);
+}
+.header-contact {
+ 
+}
 
 .header-contact .link:hover,
 .header-contact .link:focus {
