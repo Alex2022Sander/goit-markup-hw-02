@@ -117,21 +117,43 @@ img{
     color: var(--blue-logo-color);
 }
 
-
-.list {
-    list-style: none;
+.container .contact-list {
+    margin-left: 331px;
 }
-
-.nav-menu.list {
+.contact-list {
+    display: flex;
+  }
+  .contact-list .nav-item + .nav-item {
+    margin-left: 50px;
+  }
+  .nav-menu {
+    display: flex;
     color: var(--current-color);
-}
-.nav-menu .link:hover,
-.nav-menu .link:focus {
-    color: var(--blue-logo-color);
-}
-.header-contact {
- 
-}
+  }
+
+  .nav-menu.link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .nav-menu .link:hover,
+  .nav-menu .link:focus {
+      color: var(--blue-logo-color);
+  }
+
+  .nav-menu .nav-item {
+    margin-right: 50px;
+  }
+  .nav-menu .nav-item:last-child {
+    margin-right: 0;
+  }
+  .team-list .team-item:last-child {
+    margin-right: 0;
+  }
+  .benefits-list .benefits-item:last-child {
+    margin-right: 0;
+  }
 
 .header-contact .link:hover,
 .header-contact .link:focus {
